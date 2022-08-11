@@ -2,9 +2,9 @@
 'use strict';
 
 const personDataLog = ({
-    firstname: 'John',
-    lastname: 'Doe',
-    age: '33'
+    firstname = 'John',
+    lastname = 'Doe',
+    age= 33,
 }={}) => {
-    return 'My name is' + firstname + lastname + '. I'm' + age + 'years old.';
+    return 'My name is' + firstname + lastname + '. I\'m' + age + 'years old.';
 };
